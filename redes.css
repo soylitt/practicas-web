@@ -1,0 +1,60 @@
+/*DOCUMENTO CSS*/
+*{margin: 0
+    padding: 0}
+
+section, div, a {box-sizing: border-box;}
+
+h1 { text-align: center;
+    font-size: 3em;
+    padding-bottom: 15px;
+}
+
+.sociales {background-color: #cecccc;
+            padding: 30px 0px;
+            min-height: 1px;}
+
+.container {display: flex;
+            width: 300px;    
+            margin: auto;
+            min-height: 1px;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+.items {font-size: 6em;
+        width: 50%;
+        text-align: center;  
+        color: black;  
+        border-radius: 300px;
+        height: 160px;
+        padding-top: 25px;
+        background-color: white;
+     margin-top: 8px;
+    border-radius: 100px;}
+
+/*MEDIA QUERIES PANTALLAS +600PX*/
+@media only screen and (min-width:600px  ){
+
+   .items{color: red;
+background: black;}
+
+}
+/*MEDIA QUERIES PANTALLAS +900PX*/
+@media only screen and (min-width:900px) {
+
+    a.items {color: red;
+            background: black;
+            width: 25%;
+            font-size: 3em;
+            height: 83px;
+            margin-top: 6px;}
+}
+
+.container{width: 400px;
+            justify-content: space-between;
+}
+.sociales {padding-bottom: 50px;}
+
+a.items:hover{color: whitesmoke;}
+
+
