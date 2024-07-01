@@ -1,0 +1,64 @@
+/**DOCUMENTO CSS**/
+{   margin:0;
+    padding: 0
+
+}
+
+.cabecera{ background-color: rgb(75, 75, 174);
+         color: rgb(255, 255, 255);
+
+
+}
+
+div.logo{color: whitesmoke
+            width: 200px;
+           font-size: 4em;
+            text-align: center
+
+}
+
+nav.menu{
+
+
+}
+
+div.contenedor{ display: flex;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 19px;
+    left: 0px;
+
+}
+
+.item{color: rgb(75, 75, 174));
+        font-family: "poppins"; sans-serif;
+        width: 20%;
+        text-align: center;
+        padding: 8px 0px;
+        border: 1px solid rgba(209, 209, 240, 0.357);
+        background: whitesmoke
+    }
+
+a.item:first-child {border-top-left-radius: 25px;
+                    border-bottom-left-radius: 25px;}   
+                    
+a.item:last-child{border-top-right-radius: 25px;
+                    border-bottom-right-radius: 25px;
+                    background-color: red;
+                color: white;}
+
+
+
+@media only screen and (min-width: 7680px){
+
+    div.contenedor{width 700%;}
+
+}
+
+
+@media only screen and (min-width: 1280px){
+
+    div.contenedor{width 50%;}
+
+}
