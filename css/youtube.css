@@ -1,0 +1,15 @@
+*{
+    padding: 3%;
+    margin: 0;
+}
+
+  .items{
+      width: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 14px;
+      display: flex;
+      flex-direction: wrap;
+  }
+ 
+  
